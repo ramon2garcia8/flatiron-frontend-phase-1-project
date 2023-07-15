@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Only the Best Martial Arts</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="martial-arts-header">
+      <img
+        src="https://img.freepik.com/free-vector/martial-arts-icons-set-with-fighting-symbols-flat-vector-isolated-illustration_1284-81509.jpg"
+        alt="martial-arts-header"
+      />
+    </div>
+
+    <div class="container">
+      <form class="add-martial-arts-form">
+        <h3>Submit a martial arts!</h3>
+
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Martial Arts' name..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="text"
+          name="country"
+          value=""
+          placeholder="Martial Arts' country of origin..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="text"
+          name="image"
+          value=""
+          placeholder="Martial Arts' image URL..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          value="Submit Martial Arts"
+          class="submit"
+        />
+      </form>
+    </div>
+    <p style="text-align:center">
+      Click to enter a new Martial Arts! <button id="new-martial-arts-button">Add a new martial arts!</button>
+    </p>
+    
+    <div id="martial-arts-collection"></div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

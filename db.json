@@ -1,0 +1,40 @@
+{
+  "martial-arts": [
+    {
+      "id": 1,
+      "name": "Capoeira",
+      "country": "Brazil",
+      "image": "https://expatlifeinthailand.com//assets/media/2020/07/Capoeira-iStock-1-1400x700-1-scaled.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Karate",
+      "country": "Japanese",
+      "image": "https://cdn.britannica.com/07/145407-050-8DBD77E9/belts.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Taekwondo",
+      "country": "South Korea",
+      "image": "https://wgbh.brightspotcdn.com/dims4/default/16e4907/2147483647/strip/true/crop/5580x3044+0+410/resize/990x540!/quality/70/?url=http%3A%2F%2Fcdn-news.wgbh.org%2Fs3fs-public%2FRTS18XOH.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kung Fu",
+      "country": "China",
+      "image": "https://finishlinept.com/wp-content/uploads/2012/09/Shaolin-Kung-Fu-1024x682.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Sambo",
+      "country": "Russia",
+      "image": "https://www.liveabout.com/thmb/3LXQACHwa43oek3kohVJOEd6brs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/airborne-soldiers-demonstrate-mastery-of-martial-arts-585311292-5afd91f9ba617700368f0ada.jpg"
+    },
+    {
+      "name": "Brazilian Jiu Jitsu",
+      "country": "Brazil",
+      "image": "https://contents.mediadecathlon.com/b69568/k$078d9ae4f1c802cccdc1de1c7f068706/1800x0/1106pt834/2213xcr1660/default.jpg",
+      "id": 6
+    }
+  ]
+}
