@@ -4,35 +4,41 @@
       "id": 1,
       "name": "Capoeira",
       "country": "Brazil",
+      "description": "Capoeira is an Afro-Brazilian martial art that combines elements of dance, acrobatics, music and spirituality.",
       "image": "https://expatlifeinthailand.com//assets/media/2020/07/Capoeira-iStock-1-1400x700-1-scaled.jpg"
     },
     {
       "id": 2,
       "name": "Karate",
       "country": "Japanese",
+      "description": "Also Karate-do is a martial art developed in the Ryukyu Kingdom. It developed from the indigenous Ryukyuan martial arts under the influence of Chinese martial arts, particularly Fujian White Crane.",
       "image": "https://cdn.britannica.com/07/145407-050-8DBD77E9/belts.jpg"
     },
     {
       "id": 3,
       "name": "Taekwondo",
       "country": "South Korea",
+      "description": "Taekwondo, Tae Kwon Do or Taekwon-Do is a Korean martial art involving punching and kicking techniques, with emphasis on head-height kicks, spinning jump kicks, and fast kicking techniques.",
       "image": "https://wgbh.brightspotcdn.com/dims4/default/16e4907/2147483647/strip/true/crop/5580x3044+0+410/resize/990x540!/quality/70/?url=http%3A%2F%2Fcdn-news.wgbh.org%2Fs3fs-public%2FRTS18XOH.jpg"
     },
     {
       "id": 4,
       "name": "Kung Fu",
       "country": "China",
+      "description": "Chinese martial arts, often called by the umbrella terms kung fu are multiple fighting styles that have developed over the centuries in Ancient China.",
       "image": "https://finishlinept.com/wp-content/uploads/2012/09/Shaolin-Kung-Fu-1024x682.jpeg"
     },
     {
       "id": 5,
       "name": "Sambo",
       "country": "Russia",
+      "description": "Sambo is a martial art with Soviet origins, an internationally practiced combat sport, and a recognized style of amateur wrestling included by UWW in the World Wrestling Championships along with Greco-Roman wrestling and freestyle wrestling.",
       "image": "https://www.liveabout.com/thmb/3LXQACHwa43oek3kohVJOEd6brs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/airborne-soldiers-demonstrate-mastery-of-martial-arts-585311292-5afd91f9ba617700368f0ada.jpg"
     },
     {
       "name": "Brazilian Jiu Jitsu",
       "country": "Brazil",
+      "description": "Brazilian jiu-jitsu (BJJ) is a self-defence martial art and combat sport based on grappling, ground fighting, and submission holds. ",
       "image": "https://contents.mediadecathlon.com/b69568/k$078d9ae4f1c802cccdc1de1c7f068706/1800x0/1106pt834/2213xcr1660/default.jpg",
       "id": 6
     }

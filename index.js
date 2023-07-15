@@ -9,11 +9,12 @@ fetch("http://localhost:3000/martial-arts")
     divCard.className = "card"
     const h2Card = document.createElement("h2")
     h2Card.textContent = martialart.name + " (" + martialart.country + ")"
+    const pCard = document.createElement("p")
+    pCard.textContent = martialart.description
+    pCard.id = "martial-arts-paragraph"
     const imgCard = document.createElement("img")
     imgCard.src = martialart.image
     imgCard.id = "martial-arts-image"
-    //imgCard.height = "500"
-    //imgCard.width = "600"
     const brCard = document.createElement("br")
     const buttonCard = document.createElement("button")
 
@@ -25,7 +26,7 @@ fetch("http://localhost:3000/martial-arts")
     buttonCard.addEventListener('click', handleDelete)
     buttonCard.textContent = "Delete"
    
-    divCard.append(h2Card, imgCard, brCard, buttonCard)
+    divCard.append(h2Card, pCard, imgCard, brCard, buttonCard)
     const martialartsCollection = document.getElementById("martial-arts-collection")
     martialartsCollection.append(divCard)
   }
@@ -45,6 +46,7 @@ fetch("http://localhost:3000/martial-arts")
 
     const addBtn = document.querySelector("#new-martial-arts-button")
     const martialArtsFormContainer = document.querySelector(".container")
+
     addBtn.addEventListener("click", () => {
       // hide & seek with the form
       addMartialArts = !addMartialArts
@@ -60,11 +62,13 @@ fetch("http://localhost:3000/martial-arts")
         const martialArtsArray = document.getElementsByClassName("input-text")
         const martialArtsName = martialArtsArray[0].value
         const martialArtsCountry = martialArtsArray[1].value
-        const martialArtsImage = martialArtsArray[2].value
+        const martialArtsDescription = martialArtsArray[2].value
+        const martialArtsImage = martialArtsArray[3].value
     
         const martialArtsObj = {
           name: martialArtsName,
           country: martialArtsCountry,
+          description: martialArtsDescription,
           image: martialArtsImage
         }
     

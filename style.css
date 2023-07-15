@@ -8,6 +8,11 @@ body {
     width: 700px;
   }
 
+  #martial-arts-paragraph {
+    color: black;
+    text-align: center;
+  }
+
   #martial-arts-header {
     display: flex;
     justify-content: center;
