@@ -11,13 +11,18 @@ fetch("http://localhost:3000/martial-arts")
     h2Card.textContent = martialart.name + " (" + martialart.country + ")"
     const imgCard = document.createElement("img")
     imgCard.src = martialart.image
-    imgCard.height = "500"
+    imgCard.id = "martial-arts-image"
+    //imgCard.height = "500"
+    //imgCard.width = "600"
     const brCard = document.createElement("br")
     const buttonCard = document.createElement("button")
-    buttonCard.addEventListener('click', (e) => {
+
+    function handleDelete () {
       divCard.remove()
       deleteCard(martialart.id)
-    })
+    }
+
+    buttonCard.addEventListener('click', handleDelete)
     buttonCard.textContent = "Delete"
    
     divCard.append(h2Card, imgCard, brCard, buttonCard)
