@@ -57,7 +57,7 @@ fetch("http://localhost:3000/martial-arts")
       }
     })
 
-    martialartsForm.addEventListener('submit', (e) => {
+    function handleSubmit(e) {
         e.preventDefault()
         const martialArtsArray = document.getElementsByClassName("input-text")
         const martialArtsName = martialArtsArray[0].value
@@ -80,8 +80,10 @@ fetch("http://localhost:3000/martial-arts")
         }
         fetch("http://localhost:3000/martial-arts", config)
         .then(res => res.json())
-        .then(data => createAllCards(data))
-      })
+        .then(data => createAllCards(data))  
+    }
+
+    martialartsForm.addEventListener('submit', handleSubmit)
   })
 
 
