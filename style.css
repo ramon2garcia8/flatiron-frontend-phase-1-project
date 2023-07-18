@@ -30,6 +30,7 @@ body {
     padding: 1rem;
     width: stretch;
     height: auto;
+    text-align: center;
     display: none;
     background: #FFFFFF;
     opacity: .8;
