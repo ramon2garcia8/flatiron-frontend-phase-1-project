@@ -1,5 +1,6 @@
 let addMartialArts = false;
 
+// Get all of the martial-arts data and display all objects on the screen
 fetch("http://localhost:3000/martial-arts")
   .then(res => res.json())
   .then(data => data.forEach(martialart => createAllCards(martialart)))
