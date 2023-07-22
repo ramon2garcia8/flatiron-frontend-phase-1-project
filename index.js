@@ -5,6 +5,7 @@ fetch("http://localhost:3000/martial-arts")
   .then(res => res.json())
   .then(data => data.forEach(martialart => createAllCards(martialart)))
 
+  // Build the DIV HTML elevement containing one single JSON object
   function createAllCards(martialart) { 
     const divCard = document.createElement("div")
     divCard.className = "card"
