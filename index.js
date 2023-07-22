@@ -50,6 +50,7 @@ fetch("http://localhost:3000/martial-arts")
     const addBtn = document.querySelector("#new-martial-arts-button")
     const martialArtsFormContainer = document.querySelector(".container")
 
+    // Adding the ability to submit FORM to enter new object
     addBtn.addEventListener("click", () => {
       // hide & seek with the form
       addMartialArts = !addMartialArts
@@ -60,6 +61,7 @@ fetch("http://localhost:3000/martial-arts")
       }
     })
 
+    // Code to handle submit using a POST method to enter new Object
     function handleSubmit(e) {
         e.preventDefault()
         const martialArtsArray = document.getElementsByClassName("input-text")
