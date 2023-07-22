@@ -33,6 +33,7 @@ fetch("http://localhost:3000/martial-arts")
     martialartsCollection.append(divCard)
   }
 
+  // Handle DELETE from the JSON server using unique object ID
   function deleteCard(id) {
     const config = {
       method: "DELETE",
